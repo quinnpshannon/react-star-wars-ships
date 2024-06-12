@@ -1,6 +1,5 @@
-function TopBar() {
+export default function TopBar() {
     return (
-        <nav>ShipCard!</nav>
+        <nav>Star Wars Starships</nav>
     )
 }
-export default TopBar;

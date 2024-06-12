@@ -1,6 +1,8 @@
-function ShipCard() {
+function ShipCard({shipName}) {
     return (
-        <h1>ShipCard!</h1>
+        <div className='shipCard'>
+            <h1>{shipName}</h1>
+        </div>
     )
 }
 export default ShipCard;

@@ -1,0 +1,30 @@
+nav {
+    background-color: Blue;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+
+.shipCard {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+.shipHangar {
+    background-color: orange;
+    display: flex;
+    flex-wrap: wrap;
+}
+.shipCard h1 {
+    margin:0;
+}
+
+footer {
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 30px;
+}
